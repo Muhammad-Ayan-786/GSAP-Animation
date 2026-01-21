@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #0b0c10;
+  color: #fff;
+  font-family: "Google Sans", sans-serif;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page1 {
+  background: lightblue;
+}
+
+.page2 {
+  background: yellow;
+}
+
+.page3 {
+  background: hotpink;
+}
+
+.page4 {
+  background: lightgreen;
+}
+
+.page5 {
+  background: coral;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border-radius: 24px;
+  background: darkblue;
+}
+
+.page3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.5rem 1rem;
+}
+
+.page3 h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.4rem;
+}
+
+.page3 p {
+  text-align: center;
+  font-size: 1.9rem;
+}
