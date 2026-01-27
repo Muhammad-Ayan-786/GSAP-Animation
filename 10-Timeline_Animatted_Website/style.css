@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+@font-face {
+  font-family: logoFont;
+  src: url(/10-Timeline_Animatted_Website/Font/TWKLausanne-300.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  color: #000;
+  font-family: "Google Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.section1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+nav h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: logoFont;
+}
+
+nav h1 i {
+  rotate: 46deg;
+  display: inline-block;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.part2 h4 {
+  font-weight: 400;
+}
+
+.part2 button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1.5px solid #8b8b8b;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.center {
+  width: 100%;
+  height: 87%;
+  display: flex;
+  padding: 30px 50px;
+}
+
+.center_part1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+
+.center_part1 h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+}
+
+.center_part1 p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.center_part1 button {
+  padding: 14px 35px;
+  border-radius: 12px;
+  background: #000;
+  color: #fff;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.center_part2 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.center_part2 img {
+  width: 90%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section2 {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0px;
+}
+
+.img_cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.img_cont img {
+  width: 150px;
+  object-fit: cover;
+}
+
+.section3 {
+  width: 100%;
+  min-height: 100%;
+  padding: 0 0 2rem 0;
+  position: relative;
+}
+
+.section3 .services {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.section3 h3 {
+  background: #BCD85F;
+  padding: 5px 10px 3px 10px;
+  border-radius: 5px;
+  font-size: 2.8rem;
+}
+
+.services p {
+  width: 60%;
+  font-size: 1.1rem;
+}
+
+.container {
+  padding: 1rem 0;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.elem {
+  flex-shrink: 0;
+  width: 48.5%;
+  height: 230px;
+  border-radius: 35px;
+  border: 3px solid black;
+  box-shadow: 0px 10px 1px #000;
+  padding: 30px;
+  display: flex;
+}
+
+.elem_part1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.elem_part1 h2 {
+  font-size: 2rem;
+  background: #BCD85F;
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px 3px 10px;
+}
+
+.elem_part1 h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.elem_part1 h4 i {
+  font-size: 1rem;
+  padding: 10px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+}
+
+.elem_part2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.elem_part2 img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.black {
+  background: #000;
+}
+
+.elem:nth-child(2) h2,
+.elem:nth-child(2) i,
+.elem:nth-child(3) h2,
+.elem:nth-child(3) i {
+  background: #fff;
+}
+
+.elem:nth-child(2) h4,
+.elem:nth-child(3) h4 {
+  color: #fff;
+}
+
+.elem:nth-child(2) i,
+.elem:nth-child(3) i {
+  color: #000;
+}
